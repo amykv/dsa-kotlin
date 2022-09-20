@@ -3,7 +3,7 @@ package scratch
 //Kotlin file to run some test scratch code
 
 //Array of strings
-val frodo = arrayOf<String>("Aragorn", "Boromir", "Frodo", "Sam", "Legolas")
+val frodo = arrayOf<String>("Aragorn", "Boromir", "Frodo", "Sam", "Legolas", "Gimli", "Gandalf", "Merry", "Pippin")
 
 //Main Kotlin function
 fun main(){

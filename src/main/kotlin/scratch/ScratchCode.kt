@@ -22,8 +22,10 @@ fun main(){
 //Function to go through indices of array to find specific string item
 fun findFrodo (myArray: Array<String>) {
     for (item in myArray.indices)
-        if (myArray[item] == "Frodo")
+        if (myArray[item] == "Frodo") {
             println("Found Frodo, Sauron wins.")
+            break // break out of code to make it a little faster when Frodo is found
+        }
 }
 
 //Function to go through indices of array and print all elements in it

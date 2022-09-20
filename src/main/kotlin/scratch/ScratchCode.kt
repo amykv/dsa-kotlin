@@ -7,6 +7,7 @@ val frodo = arrayOf("Aragorn", "Boromir", "Frodo", "Sam", "Legolas", "Gimli", "G
 //Set a larger array with size 10, all filled with one String of Haldir
 val large = Array<String?>(10){"Haldir"}
 val boxes = arrayOf(1, 2, 3, 4, 5)
+val letters = listOf('a', 'b', 'c', 'd', 'e', 'f', 'g')
 
 //var num1 = 11 //O(1)
 //var num2 = 15 //O(1)
@@ -17,6 +18,7 @@ fun main(){
     findFrodo(frodo)
     printLargeArray(large) // Big O(n), takes linear time to find/print Haldir
     printBoxes(boxes) // Big O(2)
+    logAllPairs(letters)
 }
 
 //Function to go through indices of array to find specific string item
@@ -40,4 +42,16 @@ fun printBoxes (myArray: Array<Int>) {
     println(myArray[0]) //O(1)
     println(myArray[1]) //O(1)
 
+}
+
+//Function to log all pairs O(n^2)
+fun logAllPairs(myList: List<Char>) {
+    var count = 0
+    for (cursor1 in myList) {
+        for (cursor2 in myList) {
+            println("Pair: $cursor1$cursor2")
+            count++
+        }
+    }
+    println("Total count: $count" )
 }

@@ -8,8 +8,8 @@ val frodo = arrayOf("Aragorn", "Boromir", "Frodo", "Sam", "Legolas", "Gimli", "G
 val large = Array<String?>(10){"Haldir"}
 val boxes = arrayOf(1, 2, 3, 4, 5)
 
-var num1 = 11 //O(1)
-var num2 = 15 //O(1)
+//var num1 = 11 //O(1)
+//var num2 = 15 //O(1)
 
 //Main Kotlin function
 fun main(){

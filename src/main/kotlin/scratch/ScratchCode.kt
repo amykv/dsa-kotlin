@@ -49,6 +49,7 @@ fun logAllPairs(myList: List<Char>) {
     var count = 0
     for (cursor1 in myList) {
         for (cursor2 in myList) {
+            //Print pairs
             println("Pair: $cursor1$cursor2")
             count++
         }

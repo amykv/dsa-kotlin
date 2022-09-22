@@ -5,7 +5,7 @@ fun main(){
     val arr1 = arrayOf(1, 2, 3, 4, 5)
     val arr2 = arrayOf(7, 8, 9, 10, 5)
 
-    findSimilar(arr1, arr2)
+    //findSimilar(arr1, arr2)
 
 }
 

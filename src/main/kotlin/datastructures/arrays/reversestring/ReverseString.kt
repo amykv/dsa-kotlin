@@ -16,6 +16,7 @@ fun main() {
 
 fun reverseStr(str: String) : String {
     var result = ""
+    //Need the -1
     for (i in str.length - 1 downTo 0) {
         result += str[i]
     }

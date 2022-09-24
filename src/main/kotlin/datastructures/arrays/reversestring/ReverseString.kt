@@ -1,5 +1,6 @@
 package datastructures.arrays.reversestring
 
+
 //Creating a function to reverse a string
 //"Welcome to Middle-Earth"
 //"htraE-elddiM ot emocleW
@@ -16,9 +17,13 @@ fun main() {
 
 fun reverseStr(str: String) : String {
     var result = ""
-    //Need the -1
-    for (i in str.length - 1 downTo 0) {
-        result += str[i]
+    try {
+        //Need the -1
+        for (i in str.length - 1 downTo 0) {
+            result += str[i]
+        }
+    } catch (e: StringIndexOutOfBoundsException) {
+        println("Error")
     }
     return result
 }

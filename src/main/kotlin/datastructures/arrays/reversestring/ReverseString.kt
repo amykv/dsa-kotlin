@@ -15,15 +15,16 @@ fun main() {
 
 }
 
+///Function to reverse the string.
 fun reverseStr(str: String) : String {
     var result = ""
     try {
-        //Need the -1
+        //Need the -1 since string length starts at 0.
         for (i in str.length - 1 downTo 0) {
             result += str[i]
         }
     } catch (e: StringIndexOutOfBoundsException) {
-        println("Error")
+        println("Error - StringIndexOutOfBounds")
     }
     return result
 }

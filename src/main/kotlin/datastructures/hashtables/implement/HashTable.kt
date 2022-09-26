@@ -3,6 +3,7 @@ package datastructures.hashtables.implement
 import java.util.*
 
 fun main() {
+    //50 is item spaces in table.
     val hashTable = HashTable(50)
     hashTable["Indiana"] = 1400
     hashTable["Nevada"] = 1700

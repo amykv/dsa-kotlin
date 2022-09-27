@@ -1,44 +1,37 @@
-package datastructures.singlylinkedlist
-
-import java.util.*
-
-//Pointer is reference to another place,object, or node in memory.
+package datastructures.linkedlists.doublylinkedlist
 
 fun main() {
-    val myLinkedList = LinkedList(10)
-    //appending
-    myLinkedList.append(14)
-    myLinkedList.append(17)
-    //prepending
-    myLinkedList.prepend(30)
-    myLinkedList.prepend(50)
-    println("length: " + myLinkedList.length)
-    println("list: " + myLinkedList.printList().contentToString())
-    //inserting
-    myLinkedList.insert(2, 25)
-    println("length: " + myLinkedList.length)
-    println("list: " + myLinkedList.printList().contentToString())
-    //removing
-    myLinkedList.remove(4)
-    println("length: " + myLinkedList.length)
-    println("list: " + myLinkedList.printList().contentToString())
-    //reversing
-    val linkedList2 = myLinkedList.reverse(myLinkedList)
-    println("reverse linkedList" + linkedList2.printList().contentToString())
+    val myDoublyLinkedList = DoublyLinkedList(5)
+    myDoublyLinkedList.append(3)
+    myDoublyLinkedList.append(4)
+    myDoublyLinkedList.prepend(2)
+    myDoublyLinkedList.prepend(1)
+    println(myDoublyLinkedList.printList().contentToString())
+    myDoublyLinkedList.remove(0)
+    println(myDoublyLinkedList.printList().contentToString())
+    myDoublyLinkedList.insert(2, 200)
+    println(myDoublyLinkedList.printList().contentToString())
+    println("Length: " + myDoublyLinkedList.length)
+    println("Head value: " + myDoublyLinkedList.head?.value)
+    println("Head.previous: " + myDoublyLinkedList.head?.previous)
+    println("Tail value: " + myDoublyLinkedList.tail?.value)
+    println("Tail.next: " + myDoublyLinkedList.tail?.next)
 }
 
-//This Node class can be its own file
+
 class Node(var value: Int) {
     var next: Node? = null
+    var previous: Node? = null
 }
 
-class LinkedList(value: Int) {
-    private var head: Node? = Node(value)
-    private var tail: Node? = head
+class DoublyLinkedList(value: Int) {
+    var head: Node? = Node(value)
+    var tail: Node? = head
     var length: Int = 1
 
     fun append(value: Int) {
         val newNode = Node(value)
+        newNode.previous = tail
         tail?.next = newNode
         tail = newNode
         length++
@@ -46,6 +39,7 @@ class LinkedList(value: Int) {
 
     fun prepend(value: Int) {
         val newNode = Node(value)
+        head?.previous = newNode
         newNode.next = head
         head = newNode
         length++
@@ -78,6 +72,8 @@ class LinkedList(value: Int) {
             val newNode = Node(value)
             newNode.next = current?.next
             current?.next = newNode
+            newNode.previous = current
+            newNode.next?.previous = newNode
             length++
         }
     }
@@ -87,6 +83,7 @@ class LinkedList(value: Int) {
             println("Index Out Of Bounds For Length $length")
         } else if (index == 0) {
             head = head?.next
+            head?.previous = null
             length--
         } else {
             var current: Node? = head
@@ -99,20 +96,9 @@ class LinkedList(value: Int) {
             length--
             if (i == length - 1) {
                 tail = current
+            } else {
+                current?.next?.previous = current
             }
         }
-    }
-
-    fun reverse(linkedList: LinkedList): LinkedList {
-        val newList = LinkedList(linkedList.head!!.value)
-        var current: Node? = linkedList.head
-        while (current?.next != null) {
-            current = current.next
-            val newNode = Node(current!!.value)
-            newNode.next = newList.head
-            newList.head = newNode
-            newList.length++
-        }
-        return newList
     }
 }

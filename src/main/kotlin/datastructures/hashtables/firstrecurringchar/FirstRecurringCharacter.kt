@@ -1,4 +1,4 @@
-package datastructures.hashtables.implement
+package datastructures.hashtables.firstrecurringchar
 
 //Print the first recurring element in an array
 // Example: Given an array = [1, 2, 4, 1, 2, 4, 5, 5]

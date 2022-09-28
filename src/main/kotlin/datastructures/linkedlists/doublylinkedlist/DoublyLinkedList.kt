@@ -19,6 +19,7 @@ fun main() {
 }
 
 
+//Necessary Node
 class Node(var value: Int) {
     var next: Node? = null
     var previous: Node? = null
@@ -57,6 +58,7 @@ class DoublyLinkedList(value: Int) {
         return myList
     }
 
+    //Insert function
     fun insert(index: Int, value: Int) {
         if (index < 0 || index > length) {
             println("Index Out Of Bounds For Length $length")
@@ -78,6 +80,7 @@ class DoublyLinkedList(value: Int) {
         }
     }
 
+    //Remove function
     fun remove(index: Int) {
         if (index < 0 || index > length) {
             println("Index Out Of Bounds For Length $length")

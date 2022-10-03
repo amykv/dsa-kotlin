@@ -1,7 +1,5 @@
 package datastructures.stacks
 
-import java.util.*
-
 fun main() {
 
     val myStack = Stack()

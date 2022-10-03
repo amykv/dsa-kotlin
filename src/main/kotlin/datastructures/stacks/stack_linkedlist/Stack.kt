@@ -1,4 +1,4 @@
-package datastructures.stacks
+package datastructures.stacks.stack_linkedlist
 
 fun main() {
 

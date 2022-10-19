@@ -142,7 +142,7 @@ class BinarySearchTree {
         }
     }
 
-    // Breadth first search algorithmn
+    // Breadth first search algorithm
     fun breadthFirstSearch(): ArrayList<Int> {
         var currentNode = this.root
         val resultArray = ArrayList<Int>()

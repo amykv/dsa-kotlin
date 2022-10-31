@@ -9,6 +9,7 @@ fun main() {
     println("memoizeAddTo80: " + memo.memoizeAddTo80(5))
 }
 
+//Memoization class
 class Memoization {
     fun addTo80(n: Int): Int {
         println("Long Time")

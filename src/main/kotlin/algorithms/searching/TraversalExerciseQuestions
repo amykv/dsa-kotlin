@@ -1,0 +1,23 @@
+BFS, Breadth-First Search, is a vertex-based technique for finding the shortest path in the graph. It uses a Queue data structure that follows first in first out.
+In BFS, one vertex is selected at a time when it is visited and marked then its adjacent are visited and stored in the queue. It is slower than DFS.
+
+DFS, Depth First Search, is an edge-based technique. It uses the Stack data structure and performs two stages, first visited vertices are pushed into the stack,
+and second if there are no vertices then visited vertices are popped.
+
+//If you know a solution is not far from the root of the tree:
+BFS
+
+//If the tree is very deep and solutions are rare,
+BFS (DFS will take long time. )
+
+//If the tree is very wide:
+DFS (BFS will need too much memory)
+
+//If solutions are frequent but located deep in the tree
+DFS
+
+//determining whether a path exists between two nodes
+DFS
+
+//Finding the shortest path
+BFS

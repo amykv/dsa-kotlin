@@ -20,7 +20,5 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Searching
         - Linear Search
         - Binary Search
-        - BFS
-        - DFS
 - Dynamic Programming
     - Memoization

@@ -17,3 +17,33 @@ package exercises.isomorphicstrings
 //
 //Input: s = "foo", t = "bar"
 //Output: false
+
+fun main() {
+    val solution = Solution()
+    val char1 = "egg"
+    val char2 = "add"
+    println(solution.isIsomorphic(char1, char2))
+
+}
+
+//205
+class Solution {
+    fun isIsomorphic(s: String, t: String): Boolean {
+        val charMap = mutableMapOf<Char, Char>()
+
+        s.indices.forEach { i ->
+            val a = s[i]
+            val b = t[i]
+
+            if (a !in charMap) {
+                if (b in charMap.values) return false
+
+                charMap[a] = b
+
+            } else if (charMap[a] != b) return false
+        }
+
+        return true
+
+    }
+}

@@ -17,12 +17,23 @@ Input: s = "axc", t = "ahbgdc"
 Output: false*/
 
 fun main() {
+    val solution = Solution()
+    val myString1 = "abc"
+    val myString2 = "ahbgdc"
+    println(solution.isSubsequence(myString1, myString2))
 
 }
 
 class Solution {
     fun isSubsequence(s: String, t: String): Boolean {
+        var i = 0
+        var k = 0
 
-        return true
+        while (i < s.length && k < t.length) {
+            if (s[i] == t[k]) i++
+            k++
+        }
+
+        return i == s.length
     }
 }

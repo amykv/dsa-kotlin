@@ -37,6 +37,25 @@ fun main() {
 
 class Solution {
     fun numberOfSteps(num: Int): Int {
+        var steps = 0
+        var x = num
+
+        //While the number is greater than 0
+        while(x > 0) {
+            //If the number has remainder/modulo of 0
+            if( x % 2 == 0)
+                //Set the number to the result of number dividing by 2
+                x /= 2
+            //Otherwise/else
+            else
+                //Reduce/decrement the number by 1
+                x--
+
+            //Increment steps count by 1
+            steps++
+        }
+
+        return steps
 
     }
 }

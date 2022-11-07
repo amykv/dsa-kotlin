@@ -20,6 +20,8 @@ fun main(){
 }
 
 //Working function for solution on LeetCode, problem 1480
+// Time complexity: O(n)
+// Space complexity: 0(1)
 class Solution {
     fun runningSum(nums: IntArray): IntArray {
         if (nums.size == 1) {

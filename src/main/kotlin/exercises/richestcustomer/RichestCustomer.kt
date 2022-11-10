@@ -32,6 +32,7 @@ Output: 17*/
 fun main() {
     val solution = Solution()
 
+    //2-dimensional array for holding accounts
     val accounts = arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6), intArrayOf(7, 8, 9))
 
     println(solution.maximumWealth(accounts))

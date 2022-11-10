@@ -30,6 +30,14 @@ Output: 17*/
 
 
 fun main() {
+    val solution = Solution()
+
+    val accounts = arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6), intArrayOf(7, 8, 9))
+
+    println(solution.maximumWealth(accounts))
+
+
+
 
 }
 
@@ -38,7 +46,7 @@ class Solution {
     fun maximumWealth(accounts: Array<IntArray>): Int {
         var max = Int.MIN_VALUE
         for (account in accounts) {
-            var sum = account.sum()
+            val sum = account.sum()
             if (sum > max) {
                 max = sum
             }

@@ -22,3 +22,5 @@ Data Structures and Algorithms in Kotlin. For practice.
         - Binary Search
 - Dynamic Programming
     - Memoization
+- Exercises
+    - Variety of DSA problems from Leetcode, forums, etc.

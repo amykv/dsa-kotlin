@@ -40,3 +40,18 @@ fun hasUniqueCharacters(str: String): Boolean {
 
 //Note that the space complexity of the hasUniqueCharacters function is also O(n), since the set used to store the seen
 // characters may contain up to n elements if the string has all unique characters.
+
+
+// The function below is similar to the one above, using hash tables. A Map is a Hash Table.
+fun hasUniqueCharactersHash(str: String): Boolean {
+    val seenCharacters = mutableMapOf<Char, Unit>()
+
+    for (c in str) {
+        if (c in seenCharacters) {
+            return false
+        }
+        seenCharacters[c] = Unit
+    }
+
+    return true
+}

@@ -30,3 +30,13 @@ fun hasUniqueCharacters(str: String): Boolean {
 
     return true
 }
+
+//The Big O complexity of the hasUniqueCharacters function is O(n), where n is the length of the string. This is because
+// the function iterates through each character in the string once and performs a constant time operation
+// (checking if the character is in the set and adding it to the set if it is not) on each character.
+
+//In general, the time complexity of a loop that iterates through a collection of size n is O(n). Therefore, the time
+// complexity of the hasUniqueCharacters function is linear in the size of the input string.
+
+//Note that the space complexity of the hasUniqueCharacters function is also O(n), since the set used to store the seen
+// characters may contain up to n elements if the string has all unique characters.

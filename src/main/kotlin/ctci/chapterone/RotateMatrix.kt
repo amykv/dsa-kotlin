@@ -20,8 +20,6 @@ fun main() {
     for (row in rotated) {
         println(row)
     }
-
-
 }
 
 //This function creates a new matrix of the same size as the original matrix, and then iterates through the original

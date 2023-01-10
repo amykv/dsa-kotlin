@@ -5,11 +5,12 @@ package ctci.chaptertwo
 
 fun main() {
 
-    val head = Node(1)
-    head.next = Node(2)
-    head.next!!.next = Node(3)
-    head.next!!.next!!.next = Node(2)
-    head.next!!.next!!.next!!.next = Node(4)
+    val head = Node(1, null)
+    head.next = Node(2, null)
+    head.next!!.next = Node(3, null)
+    head.next!!.next!!.next = Node(2, null)
+    head.next!!.next!!.next!!.next = Node(4, null)
+    //head.next!!.next!!.next!!.next!!.next = null
 
     removeDuplicates(head)
 
@@ -21,16 +22,12 @@ fun main() {
 
 }
 
-//Required for using Node and next in algorithm.
-class Node(var value: Int) {
-    var next: Node? = null
-}
-
 //Create a set to store the values that have been seen so far.
 //Iterate through the linked list, and for each element:
 //If the element is not in the set, add it to the set and move on to the next element.
 //If the element is already in the set, remove it from the linked list.
 
+//This current function likely needs a rework. Handle cases when the value might be null.
 
 fun removeDuplicates(head: Node) {
     val set = mutableSetOf<Int>()

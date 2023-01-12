@@ -9,6 +9,10 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Queues
     - Trees
     - Graphs
+- CtCI
+    - Chapter 1 Arrays and Strings
+    - Chapter 2 Linked Lists
+    - Chapter 3 Stacks and Queues
 - Algorithms
     - Recursion
     - Sorting

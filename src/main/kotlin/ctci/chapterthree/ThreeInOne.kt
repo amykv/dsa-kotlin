@@ -30,6 +30,7 @@ fun main() {
 //This implementation has a time complexity of O(1) for push, pop and peek operations because it only accesses the
 // array at a specific index.
 //And it has O(n) space complexity, where n is the total capacity of all three stacks combined.
+
 class TripleStack {
     private val array: IntArray
     private val stackCapacity: Int

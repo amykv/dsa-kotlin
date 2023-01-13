@@ -11,7 +11,6 @@ package ctci.chapterone
         for (testCase in testCases) {
             println("isPermutationOfPalindrome($testCase) = ${isPermutationOfPalindrome(testCase)}")
         }
-
     }
 
 //    Created a mutable map to store the number of occurrences of each character in the string, and then iterate
@@ -38,7 +37,6 @@ package ctci.chapterone
                 hasOddCount = true
             }
         }
-
         return true
     }
 

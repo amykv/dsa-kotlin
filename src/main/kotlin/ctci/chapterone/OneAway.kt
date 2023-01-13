@@ -36,7 +36,6 @@ fun main() {
         val str2 = testCase.second
         println("isOneEditAway($str1, $str2) = ${isOneEditAway(str1, str2)}")
     }
-
 }
 
 //This function first checks if the difference in length between the strings is more than 1, in which case the strings

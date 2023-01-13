@@ -9,8 +9,6 @@ fun main() {
     for (testCase in testCases) {
         println("hasUniqueCharacters($testCase) = ${hasUniqueCharacters(testCase)}")
     }
-
-
 }
 
 // This function iterates through each character in the string and checks if it is already in the set of seen characters.
@@ -52,6 +50,5 @@ fun hasUniqueCharactersHash(str: String): Boolean {
         }
         seenCharacters[c] = Unit
     }
-
     return true
 }

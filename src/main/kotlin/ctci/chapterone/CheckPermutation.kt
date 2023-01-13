@@ -21,8 +21,6 @@ fun main(){
     for (testCase in testCases) {
         println("isPermutation(${testCase.first}, ${testCase.second}) = ${isPermutation(testCase.first, testCase.second)}")
     }
-
-
 }
 
 fun isPermutation(str1: String, str2: String): Boolean {

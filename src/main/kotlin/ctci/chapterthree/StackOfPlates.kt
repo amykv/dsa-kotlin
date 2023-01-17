@@ -30,6 +30,8 @@ fun main() {
 //The popAt(stackIndex: Int) method, removes the top element from the specific stack and return it, it also
 // shifts all the elements of the stacks above the specific stack, one stack down to fill the gap left by the removed stack.
 class SetOfStacks(private val capacity: Int) {
+
+    // This algorithm might need some tweaking
     private var stacks = ArrayList<ArrayList<Int>>()
     private var currentStack = 0
 

@@ -9,6 +9,19 @@ import java.util.*
 
 fun main() {
 
+    val sortedStack = SortedStack<Int>()
+
+    sortedStack.push(3)
+    sortedStack.push(1)
+    sortedStack.push(4)
+    sortedStack.push(2)
+    println("Peek: ${sortedStack.peek()}") // should print "Peek: 1"
+    println("Pop: ${sortedStack.pop()}") // should print "Pop: 1"
+    println("Pop: ${sortedStack.pop()}") // should print "Pop: 2"
+    println("Pop: ${sortedStack.pop()}") // should print "Pop: 3"
+    println("Pop: ${sortedStack.pop()}") // should print "Pop: 4"
+    println("Is empty: ${sortedStack.isEmpty()}") // should print "Is empty: true"
+
 }
 
 

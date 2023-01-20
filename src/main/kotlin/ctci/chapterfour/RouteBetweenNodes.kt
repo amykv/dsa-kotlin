@@ -30,6 +30,8 @@ fun main () {
 
 // Node class
 class Node(val value: Int, val edges: MutableList<Node>) {
+
+    // This function is necessary so the test prints out the value, and not class.memoryaddress.
     override fun toString(): String {
         return "Node($value)"
     }

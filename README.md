@@ -13,6 +13,7 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 1 Arrays and Strings
     - Chapter 2 Linked Lists
     - Chapter 3 Stacks and Queues
+    - Chapter 4 Graphs and Trees
 - Algorithms
     - Recursion
     - Sorting
@@ -27,4 +28,4 @@ Data Structures and Algorithms in Kotlin. For practice.
 - Dynamic Programming
     - Memoization
 - Exercises
-    - Variety of DSA problems from Leetcode, forums, etc.
+    - Variety of DSA problems from Leetcode, websites, forums, etc.

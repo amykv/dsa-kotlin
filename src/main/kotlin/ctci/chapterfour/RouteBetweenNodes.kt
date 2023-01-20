@@ -6,10 +6,35 @@ package ctci.chapterfour
 
 fun main () {
 
+    val node1 = Node(1, mutableListOf())
+    val node2 = Node(2, mutableListOf())
+    val node3 = Node(3, mutableListOf())
+    val node4 = Node(4, mutableListOf())
+    val node5 = Node(5, mutableListOf())
+    val node6 = Node(6, mutableListOf())
+
+    node1.edges += node2
+    node1.edges += node3
+    node2.edges += node4
+    node3.edges += node5
+    node4.edges += node6
+    node5.edges += node6
+
+    val start = node1
+    val end = node6
+    val result = hasRoute(start, end)
+
+    println("There is a route from $start to $end: $result")
+
 }
 
 // Node class
-class Node(val value: Int, val edges: List<Node>)
+class Node(val value: Int, val edges: MutableList<Node>) {
+    override fun toString(): String {
+        return "Node($value)"
+    }
+}
+
 
 //This function takes two arguments, a start node and an end node, and returns a boolean value indicating whether
 // there is a route from the start node to the end node.

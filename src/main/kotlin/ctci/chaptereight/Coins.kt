@@ -13,7 +13,7 @@ fun main() {
 // number of ways to represent.
 //
 //The function starts by defining an array coinDenominations that holds the coin denominations, in this case, quarters,
-// dimes, nickels, and pennies. We then create an array ways of size cents + 1 with all elements initialized to 0. Set
+// dimes, nickels, and pennies. Then create an array ways of size cents + 1 with all elements initialized to 0. Set
 // the first element of the array to 1, which is the base case representing the number of ways to represent 0 cents,
 // which is 1.
 //

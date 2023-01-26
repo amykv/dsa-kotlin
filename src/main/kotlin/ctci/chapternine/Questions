@@ -1,0 +1,34 @@
+// 9. 3 - page 145
+
+When designing a web crawler, one way to avoid getting into infinite loops is to keep track of the URLs that have
+already been visited. This can be done by using a data structure such as a hash table or a set to store the URLs that
+have been visited. Before visiting a new URL, the crawler can check if it has already been visited by looking it up in
+the data structure. If the URL has already been visited, the crawler can skip it and move on to the next URL.
+
+Another way to avoid infinite loops is to limit the depth of the crawling. This can be done by setting a maximum depth
+for the crawl, and keeping track of the current depth as the crawler traverses the links. If the current depth exceeds
+the maximum depth, the crawler can stop traversing links and move on to the next URL.
+
+It's also a good practice to have a time-out for each url visited and if the page takes too long to load the process
+is stopped.
+
+Finally, you should also have a way to stop the crawling process in case the crawler is stuck in an infinite loop.
+A common way to do this is to have a stop button or a command that can be used to interrupt the crawling process.
+
+// 9.4 - page 145
+
+One way to detect duplicate documents when you have a large number of URLs is to use a hash table. The basic idea is
+to create a hash table where the key is the URL and the value is a boolean indicating whether the URL has been seen
+before. When a new URL is encountered, you can use the hash function to check if the URL is already in the hash table.
+If it is, you know it's a duplicate and can ignore it. If it's not, you can add it to the hash table and continue
+processing.
+
+Another approach is to use a Bloom filter, which is a probabilistic data structure that is used to test whether an
+element is a member of a set. A Bloom filter uses a series of hash functions to map elements to a bit array, and a
+bit in the array is set to 1 if an element is hashed to that position. When checking for duplicates, you can use the
+same hash functions to map the URL to a bit array, and then check if all the bits corresponding to the URL are set to
+1. If they are, the URL is likely a duplicate.
+
+A third way is to use a distributed hash table, you can divide the URLs into multiple hash tables and check each table
+individually. This way you can scale horizontally and also you can handle much larger datasets, also you can assign
+each URL a unique id, and store them in a database.

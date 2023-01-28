@@ -11,7 +11,6 @@ fun main() {
     println(A.toList())
 }
 
-
 fun mergeSortedArrays(A: IntArray, B: IntArray) {
     // Initialize indices for the two arrays
     var i = A.size - B.size - 1

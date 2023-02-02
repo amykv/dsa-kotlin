@@ -1,0 +1,20 @@
+15.2 - page 179
+How would you measure the time spent in a context switch?
+
+Measuring the time spent in a context switch is challenging, as it depends on the underlying operating system and
+hardware. Context switches are managed by the operating system and occur when the operating system switches execution
+from one process or thread to another.
+
+One way to measure the time spent in a context switch is by using performance counters provided by the operating
+system, such as performance monitoring hardware or a performance library. These performance counters measure the
+number of clock cycles or elapsed time that is spent in a context switch.
+
+Another approach is to use performance profiling tools, such as performance profilers or system monitors, that can
+track and measure the time spent in context switches. These tools can provide detailed information about the
+performance of your system, including the time spent in context switches, as well as other performance metrics
+such as CPU utilization, memory usage, and I/O operations.
+
+It's worth noting that the time spent in a context switch can vary widely depending on many factors, including
+the size of the process or thread being switched, the state of the CPU cache, and the scheduling algorithms used
+by the operating system. As a result, measuring the exact time spent in a context switch is difficult, and the
+results obtained from different methods or tools may not always be consistent.

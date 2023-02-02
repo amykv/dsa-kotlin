@@ -1,0 +1,14 @@
+15.1 - page 179
+What's the difference between a thread and a process?
+
+A process is an instance of a program that is executing. A process is an isolated execution environment, meaning that
+it has its own memory space, system resources, and environment variables. In general, each process runs independently
+and does not affect other processes.
+
+A thread, on the other hand, is a light-weight process that shares the same memory space and system resources as other
+threads in the same process. Threads allow multiple tasks to be executed in parallel within a single process, making
+it possible to divide a large and complex task into smaller, more manageable parts. Threads are sometimes called
+lightweight processes and they do not require much memory overhead, they are faster to create and manage than processes.
+
+In summary, processes are independent execution environments, while threads are a way of executing multiple tasks
+within a single process in parallel.

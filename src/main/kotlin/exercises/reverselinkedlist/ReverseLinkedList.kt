@@ -22,7 +22,6 @@ Output: []*/
 fun main() {
     val solution1 = Solution()
 
-
 }
 
 /**

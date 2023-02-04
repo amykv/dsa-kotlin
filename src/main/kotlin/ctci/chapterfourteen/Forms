@@ -60,3 +60,18 @@ Here is a list of Normal Forms in SQL:
     Rule 1- Be in 2NF
     Rule 2- Has no transitive functional dependencies
 
+BCNF (Boyce-Codd Normal Form)
+
+Even when a database is in 3rd Normal Form, still there would be anomalies resulted if it has more than one Candidate Key.
+
+Sometimes is BCNF is also referred as 3.5 Normal Form.
+
+4NF (Fourth Normal Form) Rules
+
+If no database table instance contains two or more, independent and multivalued data describing the relevant entity, then it is in 4th Normal Form.
+5NF (Fifth Normal Form) Rules
+
+A table is in 5th Normal Form only if it is in 4NF and it cannot be decomposed into any number of smaller tables without loss of data.
+6NF (Sixth Normal Form) Proposed
+
+6th Normal Form is not standardized, yet however, it is being discussed by database experts for some time.

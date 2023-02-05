@@ -9,14 +9,26 @@ fun main(){
 }
 
 fun countTrailingZeros(n: Int): Int {
+    // Initialize a variable to store the count of trailing zeros
     var count = 0
-    for (i in 5..n step 5) {
-        var num = i
-        while (num % 5 == 0) {
+
+    // Loop through all the numbers from 1 to n
+    for (i in 1..n) {
+        // Calculate the factorial of i
+        var factorial = i
+        for (j in i-1 downTo 1) {
+            factorial *= j
+        }
+
+        // Count the number of trailing zeros in the factorial
+        var temp = factorial
+        while (temp % 10 == 0) {
             count++
-            num /= 5
+            temp /= 10
         }
     }
+
+    // Return the count of trailing zeros
     return count
 }
 

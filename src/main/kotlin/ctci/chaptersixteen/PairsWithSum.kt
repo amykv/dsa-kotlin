@@ -24,5 +24,5 @@ fun findPairsWithSum(arr: IntArray, sum: Int): List<Pair<Int, Int>> {
 
     return result
 }
-//This implementation has a time complexity of O(n), where n is the number of elements in the input array. The
+// This implementation has a time complexity of O(n), where n is the number of elements in the input array. The
 // space complexity is O(n), as we are using a hash table to store the elements that have been seen so far.

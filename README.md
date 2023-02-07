@@ -14,6 +14,7 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 2 Linked Lists
     - Chapter 3 Stacks and Queues
     - Chapter 4 Graphs and Trees
+    - Chapter 5 Bit Manipulation
 - Algorithms
     - Recursion
     - Sorting

@@ -16,6 +16,7 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 4 Graphs and Trees
     - Chapter 5 Bit Manipulation
     - Chapter 6 Math and Logic Puzzles
+    - Chapter 7 Object-Oriented Design
 - Algorithms
     - Recursion
     - Sorting

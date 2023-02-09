@@ -1,0 +1,77 @@
+Normalization is a database design technique that reduces data redundancy and eliminates undesirable characteristics
+like Insertion, Update and Deletion Anomalies. Normalization rules divides larger tables into smaller tables and links
+them using relationships. The purpose of Normalisation in SQL is to eliminate redundant (repetitive) data and ensure
+data is stored logically.
+
+What is a KEY in SQL?
+
+A KEY in SQL is a value used to identify records in a table uniquely. An SQL KEY is a single column or combination of
+multiple columns used to uniquely identify rows or tuples in the table. SQL Key is used to identify duplicate
+information, and it also helps establish a relationship between multiple tables in the database.
+
+Note: Columns in a table that are NOT used to identify a record uniquely are called non-key columns.
+
+What is a Primary Key in SQL?
+
+A primary is a single column value used to identify a database record uniquely.
+
+It has following attributes
+
+    A primary key cannot be NULL
+    A primary key value must be unique
+    The primary key values should rarely be changed
+    The primary key must be given a value when a new record is inserted.
+
+What is Composite Key?
+
+A composite key is a primary key composed of multiple columns used to identify a record uniquely
+
+Foreign Key references the primary key of another Table! It helps connect your Tables
+
+    A foreign key can have a different name from its primary key
+    It ensures rows in one table have corresponding rows in another
+    Unlike the Primary key, they do not have to be unique. Most often they aren’t
+    Foreign keys can be null even though primary keys can not
+
+Database Normal Forms
+
+Here is a list of Normal Forms in SQL:
+
+    1NF (First Normal Form)
+    2NF (Second Normal Form)
+    3NF (Third Normal Form)
+    BCNF (Boyce-Codd Normal Form)
+    4NF (Fourth Normal Form)
+    5NF (Fifth Normal Form)
+    6NF (Sixth Normal Form)
+
+1NF (First Normal Form) Rules
+
+    Each table cell should contain a single value.
+    Each record needs to be unique.
+
+2NF (Second Normal Form) Rules
+
+    Rule 1- Be in 1NF
+    Rule 2- Single Column Primary Key that does not functionally dependant on any subset of candidate key relation
+
+3NF (Third Normal Form) Rules
+
+    Rule 1- Be in 2NF
+    Rule 2- Has no transitive functional dependencies
+
+BCNF (Boyce-Codd Normal Form)
+
+Even when a database is in 3rd Normal Form, still there would be anomalies resulted if it has more than one Candidate Key.
+
+Sometimes is BCNF is also referred as 3.5 Normal Form.
+
+4NF (Fourth Normal Form) Rules
+
+If no database table instance contains two or more, independent and multivalued data describing the relevant entity, then it is in 4th Normal Form.
+5NF (Fifth Normal Form) Rules
+
+A table is in 5th Normal Form only if it is in 4NF and it cannot be decomposed into any number of smaller tables without loss of data.
+6NF (Sixth Normal Form) Proposed
+
+6th Normal Form is not standardized, yet however, it is being discussed by database experts for some time.

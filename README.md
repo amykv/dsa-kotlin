@@ -19,6 +19,7 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 7 Object-Oriented Design
     - Chapter 8 Recursion and Dynamic Programming
     - Chapter 9 System Design and Scalability
+    - Chapter 10 Sorting and Searching
 - Algorithms
     - Recursion
     - Sorting

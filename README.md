@@ -23,6 +23,7 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 11 Testing
     - Chapter 12 C and C++
     - Chapter 13 Java
+    - Chapter 14 Databases
 - Algorithms
     - Recursion
     - Sorting

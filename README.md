@@ -26,6 +26,7 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 14 Databases
     - Chpater 15 Threads and Locks
     - Chapter 16 Moderate
+    - Chpater 17 Hard
 - Algorithms
     - Recursion
     - Sorting

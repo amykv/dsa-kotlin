@@ -21,6 +21,12 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Chapter 9 System Design and Scalability
     - Chapter 10 Sorting and Searching
     - Chapter 11 Testing
+    - Chapter 12 C and C++
+    - Chapter 13 Java
+    - Chapter 14 Databases
+    - Chpater 15 Threads and Locks
+    - Chapter 16 Moderate
+    - Chpater 17 Hard
 - Algorithms
     - Recursion
     - Sorting

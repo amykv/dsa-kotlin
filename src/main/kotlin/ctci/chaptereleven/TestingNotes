@@ -1,13 +1,13 @@
 SDLC
 Planning - plan approach, risks
 Analysis - define and document requirements, behaviors
-Design
-Implementation
+Design - specifications and modules designed
+Implementation - programming
 Testing - should be done during all stages
-Deployment
-Maintenance
+Deployment - released, get feedback
+Maintenance - fixes, use feedback for fixes
 
-Regression
-Sanity
-Acceptance
-Functional
+Regression - new patch, new feature
+Sanity - minor change in code, don't execute full test plan/suite
+Acceptance - testing done by client/end user. Beta test.
+Functional - basic usability, do main functions work

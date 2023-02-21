@@ -1,0 +1,20 @@
+SDLC
+Planning - plan approach, risks
+Analysis - define and document requirements, behaviors
+Design - specifications and modules designed
+Implementation - programming
+Testing - should be done during all stages
+Deployment - released, get feedback
+Maintenance - fixes, use feedback for fixes
+
+Regression - new patch, new feature
+Sanity - minor change in code, don't execute full test plan/suite
+Acceptance - testing done by client/end user. Beta test.
+Functional - basic usability, do main functions work
+
+Agile - iterative approach, increments
+Sprint - period of time, usually two weeks
+Sprint Planning - define what to achieve. The what and how.
+Daily Stand Up - quick meeting, summary, blockers, ask for help
+Iteration Review - review how the sprint went, more in depth
+Retrospective - find ways to improve

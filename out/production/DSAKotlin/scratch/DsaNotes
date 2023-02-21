@@ -1,0 +1,13 @@
+To determine the time and space complexity of an algorithm:
+To determine the time complexity, you need to analyze how the running time of the algorithm grows with the size of
+the input. This is usually done by counting the number of basic operations performed by the algorithm. For example,
+counting the number of assignments, comparisons, and iterations.
+
+To determine the space complexity, you need to analyze how the amount of memory used by the algorithm grows with the
+size of the input. This is usually done by counting the total amount of memory used by the algorithm, excluding the
+memory used by the input.
+
+It's important to note that the time and space complexity analysis is an approximation of the actual performance of
+the algorithm and depends on various factors, such as the type and size of the input, the implementation details of
+the algorithm, and the performance of the underlying hardware. Nevertheless, time and space complexity analysis
+provides a useful way to compare different algorithms and choose the best one for a given task.

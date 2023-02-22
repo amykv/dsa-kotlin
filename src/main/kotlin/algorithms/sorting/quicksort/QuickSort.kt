@@ -7,6 +7,16 @@ fun main() {
     quickSort.printArray(numbers)
 }
 
+//The QuickSort algorithm is a divide-and-conquer algorithm that sorts an array by partitioning it into two subarrays,
+// sorting each subarray independently, and then combining the sorted subarrays. The key operation in QuickSort is
+// partitioning the array. The partitioning step selects a pivot element, rearranges the array so that all elements
+// less than the pivot come before it, and all elements greater than the pivot come after it. The pivot element is
+// now in its final position, and the two subarrays on either side of it can be sorted independently.
+//
+//The time complexity of QuickSort is O(n log n) in the average case, but can degrade to O(n^2) in the worst case if
+// the pivot element is consistently chosen poorly. The space complexity of QuickSort is O(log n) due to the recursion
+// used in the algorithm.
+
 class QuickSort {
     fun quickSort(arr: IntArray, low: Int, high: Int) {
         if (low < high) {

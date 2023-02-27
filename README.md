@@ -42,3 +42,5 @@ Data Structures and Algorithms in Kotlin. For practice.
     - Memoization
 - Exercises
     - Variety of DSA problems from Leetcode, websites, forums, etc.
+- Scratch
+    - Quick testing code.

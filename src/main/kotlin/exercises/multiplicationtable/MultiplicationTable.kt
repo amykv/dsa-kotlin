@@ -1,7 +1,7 @@
 package exercises.multiplicationtable
 
 // Program to generate multiplication table
-fun main(args: Array<String>) {
+fun main() {
     val num = 5
 
     for (i in 1..10) {

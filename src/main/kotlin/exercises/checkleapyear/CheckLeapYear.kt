@@ -1,8 +1,9 @@
 package exercises.checkleapyear
 
-// Check if Leap Year
-fun main(args: Array<String>) {
+// Check if Leap Year exercise
+fun main() {
 
+    // Can change year value
     val year = 1900
     var leap = false
 

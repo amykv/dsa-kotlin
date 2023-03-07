@@ -20,5 +20,4 @@ fun main() {
     println("list1: $list1")
     println("list2: $list2")
     println("Joined: $joined")
-
 }

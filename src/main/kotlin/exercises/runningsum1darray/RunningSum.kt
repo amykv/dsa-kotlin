@@ -5,7 +5,6 @@ Given an array nums. We define a running sum of an array as runningSum[i] = sum(
 
 Return the running sum of nums.
 
-
 Example 1:
 
 Input: nums = [1,2,3,4]

@@ -6,8 +6,8 @@ import java.util.*
 fun main() {
 
     val reader = Scanner(System.`in`)
-    try {
 
+    try {
     print("Enter a number: ")
     val num = reader.nextInt()
 

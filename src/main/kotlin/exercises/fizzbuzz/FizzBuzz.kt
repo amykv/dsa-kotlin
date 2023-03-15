@@ -8,6 +8,7 @@ answer[i] == "Buzz" if i is divisible by 5.
 answer[i] == i (as a string) if none of the above conditions are true.
 
 Example 1:
+
 Input: n = 3
 Output: ["1","2","Fizz"]
 

@@ -1,8 +1,7 @@
 package exercises.findfactorial
 
 // Find factorial of a given number
-
-fun main(args: Array<String>) {
+fun main() {
 
     val num = 10
     var factorial: Long = 1

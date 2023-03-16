@@ -2,7 +2,6 @@ package exercises.joinlists
 
 import java.util.ArrayList
 //Kotlin program to join two lists together
-
 fun main() {
 
     val list1 = ArrayList<String>()

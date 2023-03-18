@@ -2,7 +2,7 @@ package exercises.getoddnumbers
 
 //Kotlin program to filter and print odd numbers from a list
 
-fun main(){
+fun main() {
     println(filterOdd(listOf(1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 16, 17, 18, 20)))
 }
 

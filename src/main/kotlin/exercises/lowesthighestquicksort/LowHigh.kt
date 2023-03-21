@@ -38,7 +38,6 @@ private fun quickSort(list: MutableList<Int>): List<Number> {
 
     return quickSort(left) + listOf(pivot) + quickSort(right)
 }
-
 private fun <T> MutableList<T>.swap(index1: Int, index2: Int) {
     val tmp = this[index1]
     this[index1] = this[index2]

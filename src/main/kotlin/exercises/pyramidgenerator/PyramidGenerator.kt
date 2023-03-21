@@ -17,3 +17,25 @@ package exercises.pyramidgenerator
 //'  #  '
 //' ### '
 //'#####'
+
+fun main(){
+    val myNum = 3
+
+    val myPyramid = generatePyramid(myNum)
+    print(myPyramid)
+}
+
+private fun generatePyramid(n: Int): MutableList<String> {
+    val list = mutableListOf<String>()
+    val maxRowLen = n * 2 - 1
+
+    for (i in 1..n) {
+        val rowLen = i * 2 - 1
+
+        val sideString = " ".repeat((maxRowLen - rowLen) / 2)
+        val hashString = "#".repeat(rowLen)
+
+        list.add("$sideString$hashString$sideString")
+    }
+    return list
+}

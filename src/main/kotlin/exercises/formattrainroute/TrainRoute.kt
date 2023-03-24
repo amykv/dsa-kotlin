@@ -9,3 +9,15 @@ package exercises.formattrainroute
 //If list contains single train station name, then return Train is calling at stationName
 //If list contains multiple train station names, then return comma separated station names, but the last two names are
 // separated by and word.
+
+//Examples
+//
+//formatTrainRoute(listOf("Luton")) // "Train is calling at Luton"
+//
+//formatTrainRoute(listOf("Luton", "Harpenden")) // "Train is calling at Luton and Harpenden"
+//
+//formatTrainRoute(listOf("Luton", "Harpenden", "London")) // "Train is calling at Luton, Harpenden and London"
+
+fun main() {
+
+}

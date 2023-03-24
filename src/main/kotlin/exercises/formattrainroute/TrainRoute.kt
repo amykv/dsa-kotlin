@@ -19,6 +19,20 @@ package exercises.formattrainroute
 //formatTrainRoute(listOf("Luton", "Harpenden", "London")) // "Train is calling at Luton, Harpenden and London"
 
 fun main() {
+    // Test case 1
+    val stations1 = listOf("Luton")
+    val result1 = formatTrainRoute(stations1)
+    println(result1) // "Train is calling at Luton"
+
+    // Test case 2
+    val stations2 = listOf("Luton", "Harpenden")
+    val result2 = formatTrainRoute(stations2)
+    println(result2) // "Train is calling at Luton and Harpenden"
+
+    // Test case 3
+    val stations3 = listOf("Luton", "Harpenden", "London")
+    val result3 = formatTrainRoute(stations3)
+    println(result3) // "Train is calling at Luton, Harpenden and London"
 
 }
 

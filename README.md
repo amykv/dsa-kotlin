@@ -41,6 +41,6 @@ Data Structures and Algorithms in Kotlin. Includes example problems.
 - Dynamic Programming
     - Memoization
 - Exercises
-    - Variety of DSA problems from Leetcode, websites, forums, etc.
+    - Variety of DSA problems and challenges from Leetcode, websites, forums, etc.
 - Scratch
     - Quick testing code.

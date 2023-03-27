@@ -18,6 +18,8 @@ fun main() {
     println(product(listOf(1, 2, 4))) // 8
     println(product(listOf(2, 4, 10))) // 80
 }
+
+//Function for finding product
 fun product(numbers: List<Int>): Int {
     if (numbers.isEmpty()) {
         return 0

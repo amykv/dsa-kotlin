@@ -1,5 +1,5 @@
 # dsa-kotlin
-Data Structures and Algorithms in Kotlin. Includes example problems.
+Data Structures and Algorithms in Kotlin. Includes example problems and exercises.
 
 - Data Structures
     - Arrays

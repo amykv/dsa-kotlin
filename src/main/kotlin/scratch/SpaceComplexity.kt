@@ -1,5 +1,7 @@
 package scratch
 
+//Scratch code for running examples in fun main().
+
 fun main(){
     //saySomething(4) // Prints the string Something! 5 times, O(1)
     val arr1 = arrayOf(1, 2, 3, 4, 5)

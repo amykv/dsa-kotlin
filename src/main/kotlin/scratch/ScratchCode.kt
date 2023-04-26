@@ -54,5 +54,6 @@ fun logAllPairs(myList: List<Char>) {
             count++
         }
     }
+    //Print total count
     println("Total count: $count" )
 }

@@ -1,5 +1,4 @@
 package scratch
-
 //Kotlin file to run some test scratch code
 
 //Array of strings

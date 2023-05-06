@@ -25,6 +25,7 @@ fun main(){
     print(myPyramid)
 }
 
+//Function to generate pyramid
 private fun generatePyramid(n: Int): MutableList<String> {
     val list = mutableListOf<String>()
     val maxRowLen = n * 2 - 1

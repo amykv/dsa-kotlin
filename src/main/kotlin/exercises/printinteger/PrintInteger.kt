@@ -6,6 +6,8 @@ import java.util.*
 
 fun main(args: Array<String>) {
 
+    // Should add a try-catch for wrong inputs
+
     // Creates a reader instance which takes
     // input from standard input - keyboard
     val reader = Scanner(System.`in`)

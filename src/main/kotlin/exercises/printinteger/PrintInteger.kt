@@ -4,7 +4,7 @@ import java.util.*
 
 // How to print an integer entered by user in Kotlin using Scanner
 
-fun main(args: Array<String>) {
+fun main() {
 
     // Should add a try-catch for wrong inputs
 

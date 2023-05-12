@@ -43,6 +43,3 @@ fun main() {
 
         return sorted
     }
-
-
-//private object KtLintWillNotComplain

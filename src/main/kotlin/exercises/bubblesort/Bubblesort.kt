@@ -15,7 +15,7 @@ package exercises.bubblesort
 // Space complexity: O(1)
 
 fun main() {
-    val nums = listOf<Int>(6, 2, 5, 10, 11, 1, 3)
+    val nums = listOf<Int>(6, 2, 5, 10, 11, 1, 3, 7, 29, 30, 99, 88, 89)
     println(bubbleSort(nums))
     //println(nums)
 

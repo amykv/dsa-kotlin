@@ -13,15 +13,17 @@ fun main() {
         Quarterback("Matthew Stafford", 4208)
     )
 
-    println("Before sorting:")
-    quarterbacks.forEach { println("${it.name}: ${it.passingYards} yards") }
+    val mutableQuarterbacks = quarterbacks.toMutableList()
 
-    quickSort(quarterbacks, 0, quarterbacks.size - 1) { qb1, qb2 ->
+    println("Before sorting:")
+    mutableQuarterbacks.forEach { println("${it.name}: ${it.passingYards} yards") }
+
+    quickSort(mutableQuarterbacks, 0, mutableQuarterbacks.size - 1) { qb1, qb2 ->
         qb1.passingYards - qb2.passingYards
     }
 
     println("\nAfter sorting:")
-    quarterbacks.forEach { println("${it.name}: ${it.passingYards} yards") }
+    mutableQuarterbacks.forEach { println("${it.name}: ${it.passingYards} yards") }
 }
 
 fun <T> quickSort(list: MutableList<T>, low: Int, high: Int, comparator: (T, T) -> Int) {

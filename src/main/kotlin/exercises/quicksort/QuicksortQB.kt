@@ -18,7 +18,7 @@ fun main() {
     val mutableQuarterbacks = quarterbacks.toMutableList()
 
     // Print the quarterbacks list before sorting
-    println("Before sorting:")
+    println("Before sorting Quarterbacks:")
     mutableQuarterbacks.forEach { println("${it.name}: ${it.passingYards} yards") }
 
     // Sort the mutableQuarterbacks list using the quickSort function
@@ -27,7 +27,7 @@ fun main() {
     }
 
     // Print the quarterbacks list after sorting
-    println("\nAfter sorting:")
+    println("\nAfter sorting Quarterbacks:")
     mutableQuarterbacks.forEach { println("${it.name}: ${it.passingYards} yards") }
 }
 

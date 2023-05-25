@@ -43,6 +43,7 @@ fun main() {
 
 class Solution {
     //1672
+    // function for maximumWealth calculation
     fun maximumWealth(accounts: Array<IntArray>): Int {
         var max = Int.MIN_VALUE
         for (account in accounts) {

@@ -31,7 +31,6 @@ Example 3:
 Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 Output: 17*/
 
-
 fun main() {
     val solution = Solution()
 

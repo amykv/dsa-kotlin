@@ -18,7 +18,7 @@ fun main(){
     println(solution.runningSum(myNums))
 }
 
-//Working function for solution on LeetCode, problem 1480
+// Working function for solution on LeetCode, problem 1480
 // Time complexity: O(n)
 // Space complexity: 0(1)
 class Solution {
@@ -32,4 +32,3 @@ class Solution {
         return nums
     }
 }
-

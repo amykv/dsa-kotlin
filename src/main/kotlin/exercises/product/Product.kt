@@ -35,6 +35,6 @@ fun product(numbers: List<Int>): Int {
 //The time complexity of this code is O(n), where n is the length of the input list. This is because the function
 //performs a single loop over the elements of the input list, and performs a constant amount of work for each element.
 //Therefore, the amount of work performed by the function is proportional to the length of the input list.
-//
+
 //The space complexity of this code is O(1), because the function only uses a constant amount of additional memory
 //regardless of the size of the input list.

@@ -6,6 +6,7 @@ fun main() {
     val unsortedList = mutableListOf(5, 2, 9, 1, 5, 6, 3, 11, 55, 23, 21, 99)
     val sortedList = quickSort(unsortedList)
     println(sortedList)
+    println("Program complete.")
 }
 
 // Time complexity: O(n^2)

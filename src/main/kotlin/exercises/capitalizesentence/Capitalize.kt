@@ -8,7 +8,6 @@ fun main() {
 }
 
 // Iterative solution
-
     private fun capitalizeSentence(str: String): String {
         val words = mutableListOf<String>()
 

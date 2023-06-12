@@ -9,6 +9,7 @@ fun main() {
     private fun capitalizeSentence(str: String): String {
         val words = mutableListOf<String>()
 
+    // Split each word by space
         str.split(" ").forEach {
             words.add(it[0].uppercase() + it.substring(1))
         }

@@ -2,7 +2,7 @@ package exercises.capitalizesentence
 //Program to capitalize the first letter in each word
 
 fun main() {
-    val words = "Here are some words"
+    val words = "Here are some words for testing"
     println(capitalizeSentence(words))
 }
 // Iterative solution
